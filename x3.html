@@ -1,0 +1,24 @@
+<!-- BBY261 JSON ile Katalog Uygulaması Ertuğrul Danacı -->
+<!DOCYTYPE html>
+<html>
+	<head>
+		<title>Detaylı Görünüm</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="js/database.js"></script>
+	</head>
+	<body>
+		<center>
+			<!-- İçerik Başlangıcı -->
+			<p id="detailView"></p>
+			<script>
+				for(var i=0;i<catalog.length;i++){
+					document.getElementById("detailView").innerHTML += "<p>" +"<img src='" + catalog[i].itemImage + "' width='69%'/><br><br>" + "<b>" + catalog[i].itemTitle + "</b><br>" + catalog[i].itemAuthor + "<br>" + catalog[i].itemDescription + "</p>";
+					if(i<(catalog.length - 1)){
+					document.getElementById("detailView").innerHTML += "<p>" + "<hr>" + "</p>";
+					}
+				}
+			</script>
+			<!-- İçerik Bitişi -->
+		</center>
+	</body>
+</html>

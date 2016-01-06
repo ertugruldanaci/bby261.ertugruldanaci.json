@@ -1,0 +1,19 @@
+<!-- BBY261 JSON ile Katalog Uygulaması Ertuğrul Danacı -->
+<!DOCYTYPE html>
+<html>
+	<head>
+		<title>Sadece Listeyi Göster</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="js/database.js"></script>
+	</head>
+	<body>
+		<!-- İçerik Başlangıcı -->	
+		<p id="icerikX3"></p>
+		<script>
+			for(var i=0;i<catalog.length;i++){
+				document.getElementById("icerikX3").innerHTML += "<p>" + catalog[i].itemNumber + ". " + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + "<br>" + "</p>";
+			}
+		</script>
+		<!-- İçerik Bitişi -->
+	</body>
+</html>

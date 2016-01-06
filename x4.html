@@ -1,0 +1,22 @@
+<!-- BBY261 JSON ile Katalog Uygulaması Ertuğrul Danacı -->
+<!DOCYTYPE html>
+<html>
+	<head>
+		<title>Daha Detaylı Görünümü Göster</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="js/database.js"></script>
+	</head>
+	<body>
+		<!-- İçerik Başlangıcı -->
+		<p id="moreDetailView"></p>
+		<script>
+			for(var i=0;i<catalog.length;i++){  
+				document.getElementById("moreDetailView").innerHTML += "<p>" + "<center>" + "<img src='" + catalog[i].itemImage + "' width='69%'/><br><br>" +  "</center>" + "<b>KÜNYE: </b><br><br>" + "<b>Başlık: </b>" + catalog[i].itemTitle + "<br><b>Yazar: </b>" + catalog[i].itemAuthor + "<br><b>Yayınevi: </b>" + catalog[i].itemPublisher + "<br><b>Yayın Tarihi: </b>" + catalog[i].itemCreationDate + "<br><b>Sayfa Sayısı: </b>" + catalog[i].itemNumberofpages + "<br><b>Dil: </b>" + catalog[i].itemLanguage + "<br><b>Tür: </b>" + catalog[i].itemType + "<br><b>ISBN: </b>" + catalog[i].itemISBN + "<br><br><b>ÖZET: </b>" + catalog[i].itemDescription + "</p>"; 
+				if(i<(catalog.length - 1)){
+					document.getElementById("moreDetailView").innerHTML += "<p>" + "<hr>" + "</p>";
+                }
+			}
+		</script>
+		<!-- İçerik Bitişi -->
+	</body>
+</html>

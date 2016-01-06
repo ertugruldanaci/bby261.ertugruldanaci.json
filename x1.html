@@ -1,0 +1,71 @@
+<!-- BBY261 JSON ile Katalog Uygulaması Ertuğrul Danacı -->
+<!DOCYTYPE html>
+<html>
+	<head>
+		<title>Arama Yap</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="themes/erto-pembish.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+		<script type="text/javascript" src="js/database.js"></script>
+		
+	</head>
+	<body>
+		<form>
+			<input data-type="search" id="divOfPs-input">
+		</form>
+		<center <div class="elements" data-filter="true" data-input="#divOfPs-input">
+			<!-- İçerik Başlangıcı -->
+			<p id="icerikA01"></p>
+			<p id="icerikA02"></p>
+			<p id="icerikA03"></p>
+			<p id="icerikA04"></p>
+			<p id="icerikA05"></p>
+			<p id="icerikA06"></p>
+			<p id="icerikA07"></p>
+			<p id="icerikA08"></p>
+			<p id="icerikA09"></p>
+			<p id="icerikA10"></p>
+			<p id="icerikA11"></p>
+			<p id="icerikA12"></p>
+			<p id="icerikA13"></p>
+			<p id="icerikA14"></p>
+			<p id="icerikA15"></p>
+			<p id="icerikA16"></p>
+			<p id="icerikA17"></p>
+			<p id="icerikA18"></p>
+			<p id="icerikA19"></p>
+			<p id="icerikA20"></p>
+			
+			<!-- 1 -->
+			
+			<script>
+				var i = 0;
+				document.getElementById("icerikA01").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA02").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA03").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA04").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA05").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA06").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA07").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA08").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA09").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA10").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA11").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA12").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA13").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA14").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA15").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA16").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA17").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA18").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA19").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "<hr>" + "</p>"; i++;
+				document.getElementById("icerikA20").innerHTML += "<p>" + catalog[i].itemTitle + " - " + catalog[i].itemAuthor + " (" + catalog[i].itemCreationDate + ")" + "<br>" + "</p>"; i++;
+			</script>
+			<!-- İçerik Bitişi -->
+		</center>
+	</body>
+</html>

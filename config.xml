@@ -3,12 +3,12 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "bby261.ertugruldanaci.json"
         versionCode = "1" 
-        version     = "0.2.3" >
+        version     = "0.2.4" >
 	
 	<!-- BBY261 Katalog Uygulaması Ertuğrul Danacı -->
     <!-- Standart Uygulama Verileri -->
 
-    <name>bby261.ertugruldanaci.katalog</name>
+    <name>bby261.ertugruldanaci.json</name>
 
     <description>
         Katalog Uygulaması
